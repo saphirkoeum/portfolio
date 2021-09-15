@@ -174,7 +174,6 @@ address {
 ol,
 ul {
   padding-left: 2rem;
-  padding-right: 2rem;
   list-style: none;
 }
 
@@ -596,11 +595,11 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -11465,7 +11464,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url('../assets/img/img3.jpg');
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/img3.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11559,7 +11558,6 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
-
 #moi {
   width: 20%;
   border-radius: 50%;
@@ -11571,3 +11569,4 @@ footer.footer .social-link:hover {
     float: none;
   }
 }
+
